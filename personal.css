@@ -1,0 +1,68 @@
+body {
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding:15px;
+    background-color: rgb(255, 225, 230);
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+
+.about img {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.bio {
+    padding: 30px;
+    border: 5px solid rgb(255, 225, 230);
+}
+
+.bio h2 {
+    margin-top: 0;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.bio p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.travel {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.travel h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.travel p {
+    font-size: 18px;
+}
+
+iframe {
+    margin-top:25px;
+    border-radius: 15px;
+    margin-top: 0;
+}
